@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="hhtp://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title th:text="${titulo}"></title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"></link>
+</head>
+<body>
+	<h1 class="color-rojo" th:text="${titulo}"></h1>
+	<h2 class="color-azul"> Recursos estaticos prueba</h2>
+	<img th:src="@{/images/idea.png}">
+	<br>
+	<a th:href="@{https://app5-vasegovia-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/name?name=Andrés}">API2 link</a>
+</body>
+</html>
